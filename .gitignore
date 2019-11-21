@@ -14,6 +14,9 @@
 #Terraform states#
 ######################
 *.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform/
 
 # IntellijIDEA files#
 ######################
@@ -34,3 +37,8 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+#Other directories and files#
+######################
+.vagrant/
+.env
